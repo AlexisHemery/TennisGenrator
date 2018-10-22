@@ -70,7 +70,7 @@ public class Personne {
 			return (thisYear -this.dateNaissance.annee);		
 			}
 		if(this.dateNaissance.mois==thisMonth) {
-			if(thisDay<this.dateNaissance.jour) {
+			if(thisDay<=this.dateNaissance.jour) {
 				return (thisYear -this.dateNaissance.annee);
 			}
 			else {
