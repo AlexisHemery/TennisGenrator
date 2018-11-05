@@ -9,4 +9,10 @@ public class Date {
 		mois=m;
 		annee=a;
 	}
+	
+	@Override
+	public String toString() {
+		return jour+"/"+mois+"/"+annee;
+	}
 }
+	
